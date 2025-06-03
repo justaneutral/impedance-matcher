@@ -1,0 +1,53 @@
+Matson TLT transformer:
+
+Input: 
+8.5 Ohm - 0.195 mH = 1.95e-4 H
+13 Ohm  - 0.124 mH = 1.24e-4 H
+17 Ohm  - 0.098 mH = 9.8e-5 H
+23 Ohm  - 0.071 mH = 7.1e-5 H
+29 Ohm  - 0.057 mH = 5.8e-5 H
+Output:
+phase to ground (middle) 0.008 mH = 8e-6 H
+between phases: 0.034 mH = 3.4e-5 H
+
+Matson Blin:
+
+Lmin = 0.014 mH = 14 uH = 1.4e-5 H
+Lmax = 0.037 mH = 37 uH = 3.7e-5 H
+
+
+Freq = 2e6 Hz
+
+Calculated Impedance = 2*pi*Freq*L = 1.257e5 * 1.4e-5...3.7e-5 = 1.8...5 Ohm
+
+
+Impedance with plasma = 4...20 Ohm.
+
+
+Valera's based coil:
+
+12 turns = 0.351 mH
+
+L drops 10 times at Imagnetization = 2.2A
+
+
+My coil on Amidon ferrites:
+
+0.02 mH = 2e-5 H
+
+2.73 mh on 80 turns
+
+
+
+
+Transformator transformation coefficient:
+
+Nmax = sqrt(50 / 4...20) = 7.07 / 2 = 4/4...16/4 = 4+16*x / 4+4*x, x = 0.1..1
+
+
+
+
+
+Transformer induction:
+
+
